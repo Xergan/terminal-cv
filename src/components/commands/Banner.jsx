@@ -14,7 +14,7 @@ export default function Banner() {
                                \______/                     `;
 
   return (
-    <div>
+    <div className="w-full">
       <p>Bienvenue dans le terminal ! Tapez 'help' pour commencer.</p>
       <pre>{asciiArt}</pre>
     </div>

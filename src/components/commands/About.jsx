@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div className="w-full">
       <p>
         ✨ Salut, moi c'est Nicolas Piquard alias Xergan !
       </p>
