@@ -37,7 +37,7 @@ export default function Terminal() {
       return foundCommand.component;
     } else {
       return (
-        <div key={`unknown-${Date.now()}`}>Commande inconnue : '{command}'</div>
+        <div key={`unknown-${Date.now()}`}>Unknow command: '{command}'</div>
       );
     }
   };

@@ -15,7 +15,7 @@ export default function Banner() {
 
   return (
     <div className="w-full">
-      <p>Bienvenue dans le terminal ! Tapez 'help' pour commencer.</p>
+      <p>Welcome to the terminal! Type 'help' to get started.</p>
       <pre>{asciiArt}</pre>
     </div>
   );
