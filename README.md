@@ -1,5 +1,5 @@
 # React + Vite
 
-A small cli
+A small terminal
 
 Made with ❤️ by Xergan
