@@ -3,7 +3,7 @@ import Terminal from "./components/Terminal";
 
 function App() {
   return (
-    <div>
+    <div className="text-sm md:text-base">
       <Terminal />
     </div>
   );
