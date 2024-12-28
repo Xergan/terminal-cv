@@ -2,12 +2,14 @@ import React from "react";
 
 export default function Experiences() {
   const asciiArt = `
-  ┌────────────┬─────────────────┬────────────┬─────────────────────────┐
-  │    Date    │   Entreprise    │   Poste    │       Description       │
-  ├────────────┼─────────────────┼────────────┼─────────────────────────┤
-  │ 01/01/1970 │ Office Notarial │ Archiviste │ Classement des dossiers │
-  └────────────┴─────────────────┴────────────┴─────────────────────────┘  
 
+  ┌────────────┬────────────┬────────┬────────────────────────┐
+  │    Date    │ Entreprise │ Poste  │      Description       │
+  ├────────────┼────────────┼────────┼────────────────────────┤
+  │ 01/01/1970 │ Place      │ Holder │ This is a placeholder. │
+  └────────────┴────────────┴────────┴────────────────────────┘
+  
+  
 `;
 
   return (
