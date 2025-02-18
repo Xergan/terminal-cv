@@ -98,9 +98,8 @@ export default function Terminal() {
   };
 
   return (
-    <div ref={containerRef}>
       <div className="bg-gray-950 text-white font-mono p-4 h-screen overflow-y-auto flex flex-col text-xs md:text-base">
-        <div>{lines}</div>
+        {lines}
         <div className="flex">
           <p className="text-cyan-300">guest<span className="text-white">@<span className="text-green-400">{location.hostname}</span>:~$</span></p>
           <input
@@ -124,6 +123,5 @@ export default function Terminal() {
           </div>
         )}
       </div>
-    </div>
   );
 }
