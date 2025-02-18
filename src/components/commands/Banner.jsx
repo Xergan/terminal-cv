@@ -15,9 +15,14 @@ export default function Banner() {
                                                             `;
 
   return (
-    <div className="w-max">
-      <p>Welcome to the terminal! Type 'help' to get started.</p>
-      <pre>{asciiArt}</pre>
-    </div>
+<div className="w-full">
+  <p>Welcome to the terminal! Type 'help' to get started.</p>
+  <div className="overflow-x-auto">
+    <pre className="whitespace-pre overflow-x-auto text-sm sm:text-base text-green-400 p-4 rounded-md">
+      {asciiArt}
+    </pre>
+  </div>
+</div>
+
   );
 }

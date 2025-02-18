@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Experiences() {
-  const works = [
+  const infos = [
     {
       period: "February 2025 - Now",
       position: "Versatile employee (Student job)",
@@ -29,8 +29,8 @@ export default function Experiences() {
   ];
 
   return (
-    <div class="my-2 not-prose overflow-auto rounded-lg bg-white outline outline-white/5 dark:bg-gray-950/50">
-      <table class="w-full table-auto border-collapse text-sm">
+    <div class="my-2 not-prose overflow-auto min-h-64 rounded-lg bg-white outline outline-white/5 dark:bg-gray-950/50">
+      <table class="w-full h-full table-auto border-collapse text-sm">
         <thead>
           <tr class="border-b border-gray-200 text-left font-medium text-gray-400 dark:border-gray-600 dark:text-gray-200">
             <th class="p-3 pl-8">Period</th>
@@ -40,12 +40,12 @@ export default function Experiences() {
           </tr>
         </thead>
         <tbody class="bg-white dark:bg-gray-800">
-          {works.map((work, index) => (
+          {infos.map((info, index) => (
             <tr key={index} class="border-b border-gray-100 text-gray-500 dark:border-gray-700 dark:text-gray-400">
-              <td class="p-4 pl-8">{work.period}</td>
-              <td class="p-4 pl-8">{work.position}</td>
-              <td class="p-4 pl-8">{work.company}</td>
-              <td class="p-4 pl-8">{work.responsabilities}</td>
+              <td class="p-4 pl-8">{info.period}</td>
+              <td class="p-4 pl-8">{info.position}</td>
+              <td class="p-4 pl-8">{info.company}</td>
+              <td class="p-4 pl-8">{info.responsabilities}</td>
             </tr>
           ))}
         </tbody>
