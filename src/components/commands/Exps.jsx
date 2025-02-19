@@ -5,7 +5,7 @@ export default function Experiences() {
     {
       period: "February 2025 - Now",
       position: "Versatile employee (Student job)",
-      company: "Carrefour Market (Romilly-Sur-Seine)",
+      company: "Carrefour Market (Romilly-sur-Seine)",
       responsabilities: "Responsible for processing customer payments and restocking shelves.",
     },
     {
@@ -17,13 +17,13 @@ export default function Experiences() {
     {
       period: "July 2023 - July 2023",
       position: "Archivist (Student job)",
-      company: "Office Notarial (Nogent-Sur-Seine)",
+      company: "Office Notarial (Nogent-sur-Seine)",
       responsabilities: "Digitization and archiving of customer files.",
     },
     {
       period: "July 2022 - July 2022",
       position: "Archivist (Student job)",
-      company: "Office Notarial (Nogent-Sur-Seine)",
+      company: "Office Notarial (Nogent-sur-Seine)",
       responsabilities: "Digitization and archiving of customer files.",
     },
   ];
