@@ -4,6 +4,7 @@ import Experiences from "./commands/Exps";
 import Help from "./commands/Help";
 import Certs from "./commands/Certs"
 import Edu from "./commands/Edu"
+import Portfolio from "./commands/Portfolio";
 
 export const commands = [
   {
@@ -33,5 +34,9 @@ export const commands = [
   {
     command: "edu",
     component: <Edu key={`edu-${Date.now()}`} />,
+  },
+  {
+    command: "portfolio",
+    component: <Portfolio key={`portfolio-${Date.now()}`} />,
   },
 ];

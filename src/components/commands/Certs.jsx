@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Experiences() {
+export default function Certs() {
   const infos = [
     {
       year: "2024",

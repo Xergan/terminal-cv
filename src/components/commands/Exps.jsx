@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Experiences() {
+export default function Exps() {
   const infos = [
     {
       period: "February 2025 - Now",

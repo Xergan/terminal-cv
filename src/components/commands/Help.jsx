@@ -12,6 +12,7 @@ export default function Help() {
         <li><span className="text-green-400">exps</span> {generateTabs(9)} - Display my professional experiences</li>
         <li><span className="text-green-400">certs</span> {generateTabs(8)} - Display my certifications</li>
         <li><span className="text-green-400">edu</span> {generateTabs(9)} - Display my degrees</li>
+        <li><span className="text-green-400">portfolio</span> {generateTabs(4)} - Display my degrees</li>
       </ul>
 
       <br />

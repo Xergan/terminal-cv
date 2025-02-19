@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Experiences() {
+export default function Edu() {
   const infos = [
     {
       year: "Soon",
