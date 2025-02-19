@@ -2,6 +2,7 @@ import About from "./commands/About";
 import Banner from "./commands/Banner";
 import Experiences from "./commands/Experiences";
 import Help from "./commands/Help";
+import Certs from "./commands/Certs"
 
 export const commands = [
   {
@@ -21,7 +22,11 @@ export const commands = [
     component: <About key={`about-${Date.now()}`} />,
   },
   {
-    command: "experiences",
-    component: <Experiences key={`experiences-${Date.now()}`} />,
+    command: "exps",
+    component: <Experiences key={`exp-${Date.now()}`} />,
+  },
+  {
+    command: "certs",
+    component: <Certs key={`certs-${Date.now()}`} />,
   },
 ];
