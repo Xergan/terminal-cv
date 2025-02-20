@@ -11,18 +11,18 @@ export default function Exps() {
     {
       period: "May 2024 - June 2024",
       position: "Fullstack Developer (Internship)",
-      company: "Recycle Ta Planète Solidarité",
+      company: "Association recycle ta planète Solidarité",
       responsabilities: "Developed a booking website and a Python application for stock management.",
     },
     {
       period: "July 2023 - July 2023",
-      position: "Archivist (Student job)",
+      position: "Administrative Employee (Student job)",
       company: "Office Notarial (Nogent-sur-Seine)",
       responsabilities: "Digitization and archiving of customer files.",
     },
     {
       period: "July 2022 - July 2022",
-      position: "Archivist (Student job)",
+      position: "Administrative Employee (Student job)",
       company: "Office Notarial (Nogent-sur-Seine)",
       responsabilities: "Digitization and archiving of customer files.",
     },
